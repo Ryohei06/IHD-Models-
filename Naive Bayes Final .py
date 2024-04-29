@@ -391,8 +391,8 @@ precision = precision_score(y_test, y_pred, average='weighted',zero_division=1)
 recall = recall_score(y_test, y_pred, average='weighted')
 f1 = f1_score(y_test, y_pred, average='weighted')
 
-print("Accuracy:", f"{accuracy*100:.4f}%")
-print("Precision:", f"{precision*100:.4f}%")
-print("Recall:", f"{recall*100:.4f}%")
-print("F1-score:", f"{f1*100:.4f}%")
+print("Accuracy:", f"{accuracy*100:.2f}%")
+print("Precision:", f"{precision*100:.2f}%")
+print("Recall:", f"{recall*100:.2f}%")
+print("F1-score:", f"{f1*100:.2f}%")
 
